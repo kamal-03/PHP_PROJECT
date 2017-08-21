@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>
+			Fill details about room
+		</title>
+	</head>
+	<body>
+	<form name="form2" action="room_tariff.php" method="POST">
+	<fieldset>
+	<legend> Room Tariff</legend>
+	Room Type<select name="roomtype" >
+	    <option value="choose">Select</option>
+		<option value="singleac">Single AC</option>
+		<option value="doubleac">Double AC</option>
+		<option value="singlenonac">Single Non-AC</option>
+		<option value="doublenonac">Double Non-AC</option>
+	</select><br />
+	Room Tariff<select name="roomtariff" >
+	    <option value="choose">Select</option>
+		<option value="3000">3000</option>
+		<option value="4000">4000</option>
+		<option value="1000">1000</option>
+		<option value="2000">2000</option>
+	</select><br />
+	Extra <select name="extra">
+	    <option value="choose">Select</option>
+		<option value="750">750</option>
+		<option value="1000">1000</option>
+		<option value="250">250</option>
+		<option value="500">500</option>
+	</select><br /><br />
+	<input type="submit" value="Submit"></input>
+
+		
+
+    </form>
+    </fieldset>
+	</body>
+</html>
